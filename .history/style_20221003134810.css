@@ -1,0 +1,49 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.side {
+    background-color: aqua;
+    height: 92vh;
+}
+.box1 {
+    background-color: blue;
+    width: 80px;
+    height: 20px;
+    padding: 20px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: blueviolet;
+}
+.boxheader {
+    background-color: aquamarine;
+    padding: 6px;
+    width: 1em;
+    height: 1em;
+    margin: 5px 10px;
+    border-radius: 25%;
+}
+main article {
+    background-color: brown;
+    margin: 50px;
+    height: 200px;
+    display: flex;
+    place-items: center;
+}
+.search {
+    background-color: white;
+    color: gray;
+    width: 50px;
+    justif-self: center;
+}
+button {
+    background-color: blue;
+    color: white;
+}

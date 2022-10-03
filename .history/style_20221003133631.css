@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.side {
+    background-color: aqua;
+    height: 92vh;
+}
+.box1 {
+    background-color: blue;
+    padding: 10px 20px;
+    
+}
